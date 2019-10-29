@@ -2,26 +2,85 @@
  
 
 body{
-	background: #992;
+	font-family: 'Open Sans', sans-serif;;
 }
-
-.bright{
-	.col{
-		background: #ff0;
-		min-height: 100px;
-		margin-bottom: 20px; 
+.navbar-header {
+	.navbar-brand {
+	padding: 24px 14px 19px 0;
+	margin: 0; 
+    }
+}
+.navbar-header {
+	.navbar-slogan {
+		display: block;
+		color: #505561;
+		border-left: 1px solid #154458;
+		padding: 4px 0 4px 21px;
+		font-size: 13px;
+		margin-top: 18px;
 	}
 }
-.nav-link{
-	color: #9f0;
+.navbar-header {
+	background: rgba(16,22,54,0.2);
+	
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+	padding: 0;
+	.navbar-nav{
+		float: right;
+	}
 } 
-div {
+.bd-example {
 	position: relative;
 }
-span {
-	display: block;
-	background: url(../../images/sprites.png) no-repeat -173px -14px;;
-	width: 90px;
-	height: 27px;
-	position: absolute;
+
+.nav-item {
+	font-size: 13px;
+	color: #ffffff;
+	padding: 34px 0 24px 34px;
+}
+.nav-item:hover {
+    border-top: 1px solid #32b0ee;
+}
+.carousel-item h1 {
+	font-size: 62px;
+	font-weight: 300;
+	strong {
+	font-weight: 600;
+    }
+}
+.carousel-item h2 {
+	font-size: 38px;
+	color: #e7ebea;
+	font-weight: 300;
+	span {
+	color: #0ed690;
+    }
+}
+.carousel-caption {
+	p {
+	font-size: 18px;
+	font-weight: 300;
+	color: #e8eceb;
+	position: relative;
+    margin-bottom: 0 !important;
+    padding-bottom: 100px;
+    }
+p::before {
+    content: "";
+    border-top: 1px solid #0ed691;
+    position: absolute;
+    width: 30px;
+    top: 14px;
+    left: 365px;
+  }
+p::after {
+	content: "";
+    border-top: 1px solid #0ed691;
+    position: absolute;
+    width: 28px;
+    top: 14px;
+    right: 369px;
+  }
 }
